@@ -1,5 +1,5 @@
 {
-  "name": "nawa-market",
+  "name": "sd-05-nawa-market",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -26,5 +26,7 @@
     "eslint-config-next": "16.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "author": "Engineer Mohammed Al Salimi (Salimi Tech)",
+  "license": "MIT"
 }

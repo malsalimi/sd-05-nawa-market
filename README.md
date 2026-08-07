@@ -1,221 +1,325 @@
-# Nawa Market (سوق نواة الإلكتروني)
+<div align="center">
 
-**[العربية](#نظرة-عامة-على-المشروع) | [English](#project-overview)**
+![Nawa Digital Market & Grocery Platform Banner](public/banner.svg)
 
-A premium bilingual e-commerce platform demo built with **Next.js**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Lucide Icons**.
+# Nawa Digital Market & Grocery Platform
+### سوق نوي الرقمي للمنتجات والسلع
 
-منصة تسوق إلكترونية تجريبية حديثة ومزدوجة اللغة مبنية باستخدام **Next.js** و **TypeScript** و **Tailwind CSS** و **Framer Motion** و **Lucide Icons**.
+[![Project ID](https://img.shields.io/badge/Project_ID-sd-05-nawa-market-06b6d4.svg?style=for-the-badge)]()
+[![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript_5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT_/_Portfolio-emerald.svg?style=for-the-badge)]()
 
-Part of the **Salimi Digital (SD) Collection** by **Salimi Tech**.
+**🇸🇦 منصة تسوق رقمية حديثة للمواد الغذائية والسلع، تحتوي على تصفية المنتجات، والعروض السريعة، وإدارة سلة التسوق لوحة التحكم والطلبات.**  
+**🇺🇸 A next-generation grocery e-commerce platform featuring dynamic product filtering, flash sales, shopping cart management, and admin dashboard portal.**
 
----
-
-## Arabic Version / النسخة العربية
-
-### نظرة عامة على المشروع
-**سوق نواة الإلكتروني (Nawa Market)** هو مشروع نموذجي يمثل منصة تجارة إلكترونية حديثة ومبتكرة تتيح للمستخدمين استكشاف المنتجات، استعراض التفاصيل، إضافة العناصر لسلة التسوق، وتجربة رحلة شراء كاملة بتصميم عصري وجذاب.
-
-الهدف من هذا المشروع هو إبراز مهارات تطوير الواجهات الأمامية المتقدمة وتشمل:
-- واجهات التجارة الإلكترونية الحديثة.
-- واجهة إدارة المنتجات والطلبات.
-- تجربة تسوق سلسة وسريعة.
-- تصميم لوحة التحكم (Dashboard).
-- التجاوب الكامل مع مختلف الأجهزة.
-- هندسة الويب الحديثة.
-
-> **تنبيه مهم:**  
-> هذا المشروع هو مشروع تجريبي لأغراض معرض الأعمال (Portfolio Demo). جميع المنتجات، والعملاء، والطلبات، والإحصائيات، والمعلومات المذكورة هي بيانات افتراضية ومصممة لأغراض العرض فقط، ولا توجد أي معالجة دفع حقيقية أو قواعد بيانات خلفية.
+</div>
 
 ---
 
-### المميزات الرئيسية
-- **دعم دوال اللغة (Bilingual):** دعم كامل ومباشر للغتين العربية والإنجليزية.
-- **دعم الاتجاهات (RTL/LTR):** اتجاه من اليمين لليسار (RTL) للغة العربية، ومن اليسار لليمين (LTR) للغة الإنجليزية.
-- **تصفح واستكشاف المنتجات:** تصفح المنتجات حسب الأقسام، فلترة الأسعار (Slider Slider)، التقييم، والبحث الفوري بالكلمات المفتاحية.
-- **صفحات المنتجات الديناميكية:** عرض تفصيلي لكل منتج يشمل الصور، المواصفات، حالة التوفر، التحكم بالكمية، والإضافة للسلة والمفضلة.
-- **سلة تسوق تفاعلية:** إمكانية إضافة وحذف المنتجات، تعديل الكميات، تطبيق أكواد الخصم التجريبية، وحفظ السلة في `LocalStorage`.
-- **تجربة إتمام شراء (Checkout UI):** نموذج إدخال بيانات الشحن اختيار طرق الدفع (بطاقة، دفع عند الاستلام، Apple Pay) بصورة تجريبية.
-- **لوحة حساب المستخدم:** عرض المعلومات الشخصية، سجل الطلبات السابقة مع التتبع، وقائمة المفضلة.
-- **لوحة تحكم الإدارة (Admin Dashboard):** إحصائيات المبيعات والأداء، رسومات بيانية تفاعلية، جدول المنتجات وجدول الطلبات.
-- **تصميم تجاوبي وعصري:** متوافق بالكامل مع الشاشات الذكية، الآيباد، وأجهزة المحمول.
+# 📸 Project Preview | معاينة المشروع
+
+<div align="center">
+
+### 💻 Desktop Home Page View | واجهة سطح المكتب الرئيسية
+![Desktop View](public/screenshots/home-desktop.png)
+
+<br/>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>📱 Mobile View | واجهة الجوال</b><br/><br/>
+      <img src="public/screenshots/home-mobile.png" width="300" alt="Mobile View"/>
+    </td>
+    <td width="50%" align="center">
+      <b>📄 Internal Page View | واجهة داخلية</b><br/><br/>
+      <img src="public/screenshots/internal-page.png" width="500" alt="Internal View"/>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-### التقنيات المستخدمة
-- **إطار العمل:** [Next.js](https://nextjs.org/) (App Router)
-- **لغة البرمجة:** [TypeScript](https://www.typescriptlang.org/)
-- **التنسيق:** [Tailwind CSS](https://tailwindcss.com/)
-- **الحركات والتأثيرات:** [Framer Motion](https://www.framer.com/motion/)
-- **الأيقونات:** [Lucide Icons](https://lucide.dev/)
-- **إدارة الحالة:** React Context API & `LocalStorage`
+# 📖 Overview | نظرة عامة
+
+## 🇸🇦 العربية
+
+يمثل مشروع **سوق نوي الرقمي للمنتجات والسلع** تطبيق ويب حديث وفاخر تم تطويره ليكون نموذجاً احترافياً ريادياً في قطاع **التجارة الإلكترونية الرقمية، تجارة التجزئة والسلع الاستهلاكية**.
+
+- **قطاع الأعمال**: التجارة الإلكترونية الرقمية، تجارة التجزئة والسلع الاستهلاكية
+- **فلسفة التصميم**: تعتمد الفلسفة البصرية على السلاسة، والجماليات العصرية، مع استخدام الألوان المناسبة للقطاع (**Emerald Green & Dark Mode / أخضر زاهي وواجهة مظلمة عصرية**)، وتحقيق أقصى درجات تجربة المستخدم (UX).
+- **الغرض من المحفظة**: تم إنشاء هذا المشروع كجزء من محفظة الأعمال البرمجية للتعريف بالمهارات المتقدمة في هندسة الواجهات الأمامية ثنائية اللغة وتطبيقات الويب عالية الأداء.
+
+> [!IMPORTANT]
+> **تنبيه هام**: هذا المشروع هو مشروع محفظة أعمال افتراضي مصمم لأغراض العرض والتوضيح فقط (*Fictional portfolio project created for demonstration purposes*).
+
+## 🇺🇸 English
+
+**Nawa Digital Market & Grocery Platform** is a state-of-the-art web application developed to demonstrate production-grade engineering in the **Digital E-Commerce, Retail & FMCG Logistics** sector.
+
+- **Business Sector**: Digital E-Commerce, Retail & FMCG Logistics
+- **Design Philosophy**: Built around visual elegance, high-contrast typography, tailored color schemes (**Emerald Green & Dark Mode / أخضر زاهي وواجهة مظلمة عصرية**), and intuitive user interaction flows.
+- **Portfolio Purpose**: Showcasing full-stack frontend design capability, bilingual architecture, dynamic components, and WCAG accessibility standards.
+
+> [!IMPORTANT]
+> **Notice**: This is a fictional portfolio project created for demonstration purposes.
 
 ---
 
-### مفهوم التصميم والألوان
-يعتمد التصميم على الهوية التجارية الحديثة للمتاجر العالمية:
-- **اللون الرئيسي (Deep Blue):** `#0F172A`
-- **اللون الثانوي (Modern Green):** `#16A34A`
-- **خلفيات وألوان محايدة:** أبيض `#FFFFFF` ورمادي فاتح `#F1F5F9`
+# ✨ Features | المميزات الرئيسية
+
+## 🇸🇦 العربية
+
+- ✔ **منصة متجر رقمي متكاملة تدعم التصفية حسب الأقسام (إلكترونيات، أزياء، منزل، جمال).**
+- ✔ **لوحة تحكم إدارية تفاعلية لعرض الإحصائيات والمبيعات وقائمة الطلبات.**
+- ✔ **نظام سلة تسوق سريع يدعم تحديث الكميات وحفظ المنتجات المفضلة.**
+- ✔ **دعم كامل للتصفح باللغتين العربية والإنجليزي واجهتين فاتحة ومظلمة.**
+- ✔ **أداء خفيف واستجابة فائقة السرعة مع تقليل حجم المكونات وتحسين التجربة.**
+
+## 🇺🇸 English
+
+- ✔ **Full-featured e-commerce ecosystem supporting categories (Electronics, Fashion, Home, Beauty).**
+- ✔ **Interactive administrative dashboard featuring sales metrics, order logs, and analytics.**
+- ✔ **High-speed shopping cart system supporting instant updates and wishlist bookmarks.**
+- ✔ **Full bilingual Arabic/English implementation with dark/light mode aesthetics.**
+- ✔ **Optimized performance footprint built for lightning-fast page transitions.**
 
 ---
 
-### صفحات الموقع
-1. **الرئيسية (`/`):** قسم الهيرو، الأقسام المميزة، المنتجات الأكثر مبيعاً، العروض الحصرية، قيم المتجر، وتقييمات العملاء.
-2. **المتجر (`/shop`):** تصفح وشاشات الفلترة المتعددة والترتيب حسب السعر أو التقييم.
-3. **تفاصيل المنتج (`/product/[id]`):** عرض كامل لبيانات ومواصفات المنتج والمنتجات ذات الصلة.
-4. **سلة التسوق (`/cart`):** ملخص الطلب والتحكم في العناصر وإدخال كود الخصم.
-5. **إتمام الشراء (`/checkout`):** نموذج الشحن واختيار طريقة الدفع والتأكيد التجريبي.
-6. **لوحة الحساب (`/account`):** بيانات الملف الشخصي، سجل الطلبات، والمفضلة.
-7. **لوحة التحكم (`/admin`):** إحصائيات المبيعات، الرسومات البيانية، جدول المنتجات والطلبات.
-8. **عن المتجر (`/about`):** قصة البراند، الرسالة، الرؤية، والقيم الأساسية.
-9. **اتصل بنا (`/contact`):** معلومات التواصل ونموذج إرسال الرسائل.
+# 🛠️ Technology Stack | التقنيات المستخدمة
+
+## 🇸🇦 العربية
+
+| التقنية | سبب الاختيار والدور في المشروع |
+| :--- | :--- |
+| **Next.js 15** | الإطار الأساسي للبناء، يوفر السرعة العالية، والتقسيم التلقائي للأكواد (App Router)، والدعم الممتاز لصفحات SSR/SSG. |
+| **React 19** | مكتبة بناء الواجهات، تعتمد على المكونات القابلة لإعادة الاستخدام وإدارة الحالة بسلاسة. |
+| **TypeScript 5** | لضمان جودة الكود، وتجنب الأخطاء البرمجية من خلال الأنواع الصريحة (Strict Typing). |
+| **Tailwind CSS 4** | لتصميم واجهات عصرية ومتجاوبة بسرعة عالية وبأداء ممتاز بدون ملفات CSS ضخمة. |
+| **Framer Motion** | لإضافة حركات وتأثيرات بصرية تفاعلية تجعل تجربة المستخدم حية وجذابة. |
+| **Lucide React** | أيقونات عصرية خفيفة الوزن ومتناغمة بجمالية مع جميع عناصر التصميم. |
+
+## 🇺🇸 English
+
+| Technology | Rationale & Implementation Role |
+| :--- | :--- |
+| **Next.js 15** | Core framework providing App Router, SSR/SSG rendering, dynamic imports, and SEO optimizations. |
+| **React 19** | Component-driven architecture enabling modular state management and seamless re-renders. |
+| **TypeScript 5** | Type-safe code standard preventing runtime errors and ensuring strict contract definitions. |
+| **Tailwind CSS 4** | Utility-first styling engine driving responsive breakpoints, fluid typography, and dark mode design. |
+| **Framer Motion** | Micro-interactions and smooth page transitions elevating the emotional feel of the user interface. |
+| **Lucide React** | Clean, accessible vector icons ensuring iconographic consistency across light & dark components. |
 
 ---
 
-## English Version / النسخة الإنجليزية
+# 🎨 Design Philosophy | فلسفة التصميم
 
-### Project Overview
-**Nawa Market (سوق نواة الإلكتروني)** is a fictional online marketplace designed to present a modern, commercial shopping experience across multiple product categories. This project serves as a showcase of advanced frontend web development skills, demonstrating high-performance UI components, dynamic language switching, cart management, responsive design, and executive administrative dashboards.
+## 🇸🇦 العربية
 
-> **Important Notice:**  
-> This is a fictional portfolio project created purely for demonstration purposes. All products, brands, customers, orders, metrics, and contact details are mock data. No real backend, payment processor, or database is connected.
+تم بناء الهوية البصرية لمشروع **سوق نوي الرقمي للمنتجات والسلع** لتعكس الاحترافية العالية والدقة الشديدة:
+- **نظام الألوان**: اختيار وتنسيق ألوان **Emerald Green & Dark Mode / أخضر زاهي وواجهة مظلمة عصرية** لخلق انطباع مبهر وفخم.
+- **التجربة ثنائية اللغة**: دعم الأصالة العربية من خلال خطوط Modern Standard Arabic مريحة للعين مع تحويل اتجاه الواجهة (RTL/LTR) بسلاسة فائقة.
+- **الحركة التفاعلية**: استخدام المؤثرات الحركية الدقيقة (Micro-animations) لإعطاء روح تفاعلية عند التمرير والضغط.
 
----
+## 🇺🇸 English
 
-### Features
-- **Bilingual Architecture:** Seamless instant language switching between Arabic (Arabic default) and English.
-- **RTL & LTR Directionality:** Full Right-To-Left (RTL) support for Arabic and Left-To-Right (LTR) support for English.
-- **Product Catalog & Discovery:** Interactive catalog with category filtering, price sliders, star rating filters, and instant keyword searching.
-- **Dynamic Product Pages:** Detailed view for each item showcasing image previews, specs, quantity counter, availability badges, and related items.
-- **Stateful Shopping Cart:** Add, remove, update quantities, apply demo promo codes, and persist items across browser sessions via `LocalStorage`.
-- **Checkout Experience UI:** Billing and shipping form, delivery choice, and interactive payment method selector (Credit Card, Cash on Delivery, Apple Pay in demo mode).
-- **User Account Dashboard:** Personal details, past order history with status tracking, and saved wishlist items.
-- **Executive Admin Dashboard:** Business KPIs (Total Products, Orders, Revenue, Customers), SVG analytics charts, product inventory tables, and order logs.
-- **Responsive & Modern Design:** Fluid layout tailored for mobile devices, tablets, and desktop displays with smooth animations.
+The design system for **Nawa Digital Market & Grocery Platform** is engineered around premium aesthetics:
+- **Palette**: Mastered palette around **Emerald Green & Dark Mode / أخضر زاهي وواجهة مظلمة عصرية** evoking trust, prestige, and focus.
+- **Bilingual Typographic Harmony**: Native Modern Standard Arabic paired with clean sans-serif English fonts for seamless RTL & LTR transitions.
+- **Interactive Depth**: Smooth hover feedback, glassmorphism containers, and refined elevation drops.
 
 ---
 
-### Technologies
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Animation:** [Framer Motion](https://www.framer.com/motion/)
-- **Icons:** [Lucide Icons](https://lucide.dev/)
-- **State & Storage:** React Context API & Browser `LocalStorage`
+# 📑 Pages Overview | دليل الصفحات
+
+## 🇸🇦 العربية
+
+- **`/`**: الصفحة الرئيسية - الأقسام الرئيسية، العروض اليومية، والأكثر مبيعاً
+- **`/shop`**: متجر المنتجات - تصفية السلع، البحث السريع وتصفح الأقسام السريعة
+- **`/dashboard`**: لوحة التحكم - إدارة المبيعات، الطلبات، المخزون والإحصائيات البيانية
+- **`/about`**: عن سوق نوي - رؤية التوصيل السريع والضمان والجودة
+- **`/contact`**: تواصل معنا - الدعم الفني، الشكاوى والمقترحات ودعم العملاء
+
+## 🇺🇸 English
+
+- **`/`**: Home Page - Category browser, daily flash deals, and trending items
+- **`/shop`**: Product Market - Multi-category filter, instant live search, and sorting
+- **`/dashboard`**: Admin Dashboard - Sales analytics, order tracking, inventory management, and metrics
+- **`/about`**: About Nawa - Fast delivery vision, quality guarantee, and local sourcing
+- **`/contact`**: Contact & Support - Helpdesk, customer inquiries, and store locator
 
 ---
 
-### Design Concept
-- **Primary Color (Deep Blue):** `#0F172A`
-- **Secondary Color (Modern Green):** `#16A34A`
-- **Background & Neutrals:** White `#FFFFFF` and Light Gray `#F1F5F9`
+# 📁 Folder Structure | هيكلية المشروع
 
----
-
-### Pages
-1. **Home Page (`/`)**: Hero banner, featured categories, best-selling product grid, promotional banners, core brand values, and customer reviews.
-2. **Shop Catalog (`/shop`)**: Complete inventory browsing with multi-facet filters (category, price slider, rating) and search.
-3. **Product Details (`/product/[id]`)**: Product specs, image preview, stock status, quantity adjustment, add-to-cart, and related recommendations.
-4. **Cart (`/cart`)**: Itemized cart breakdown, quantity modifier, promo code activation, tax estimation, and grand total.
-5. **Checkout (`/checkout`)**: Shipping details form, payment option tab selection, order summary, and demo order confirmation modal.
-6. **User Account (`/account`)**: Profile info, interactive tabs for order history, saved addresses, and wishlist.
-7. **Admin Dashboard (`/admin`)**: Metric stat cards, visual sales & revenue charts, inventory table, and orders status table.
-8. **About Us (`/about`)**: Brand story, mission, vision, and core corporate values (Quality, Trust, Innovation, Speed).
-9. **Contact (`/contact`)**: Demo contact information cards (email, phone, address) and an interactive contact feedback form.
-
----
-
-## Project Structure / هيكل المشروع
+## 🇸🇦 العربية و 🇺🇸 English
 
 ```text
 sd-05-nawa-market/
 ├── app/
-│   ├── about/page.tsx
-│   ├── account/page.tsx
-│   ├── admin/page.tsx
-│   ├── cart/page.tsx
-│   ├── checkout/page.tsx
-│   ├── contact/page.tsx
-│   ├── product/[id]/page.tsx
-│   ├── shop/page.tsx
-│   ├── globals.css
 │   ├── layout.tsx
-│   └── page.tsx
+│   ├── page.tsx
+│   ├── shop/
+│   │   └── page.tsx
+│   ├── dashboard/
+│   │   └── page.tsx
+│   └── contact/
+│       └── page.tsx
 ├── components/
-│   ├── CartItem.tsx
-│   ├── CategoryCard.tsx
-│   ├── ChartCard.tsx
-│   ├── ContactForm.tsx
-│   ├── DashboardCard.tsx
-│   ├── FilterPanel.tsx
-│   ├── Footer.tsx
-│   ├── HeroSection.tsx
-│   ├── LanguageSwitcher.tsx
-│   ├── Navbar.tsx
-│   ├── OrderTable.tsx
-│   ├── ProductCard.tsx
-│   ├── ProductGrid.tsx
-│   ├── ProductTable.tsx
-│   ├── SearchBar.tsx
-│   └── SectionTitle.tsx
-├── context/
-│   ├── CartContext.tsx
-│   ├── LanguageContext.tsx
-│   └── WishlistContext.tsx
-├── data/
-│   ├── categories.ts
-│   ├── dashboard.ts
-│   ├── orders.ts
-│   ├── products.ts
-│   ├── reviews.ts
-│   └── users.ts
-├── locales/
-│   ├── ar.json
-│   └── en.json
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   └── Footer.tsx
+│   └── market/
+│       ├── ProductCard.tsx
+│       └── DashboardMetrics.tsx
+├── public/
+│   ├── banner.svg
+│   ├── og-image.svg
+│   └── screenshots/
+│       ├── home-desktop.png
+│       ├── home-mobile.png
+│       └── internal-page.png
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
 └── README.md
 ```
 
 ---
 
-## Installation / التثبيت والتشغيل
+# 📱 Responsive Design | التصميم المتجاوب
 
-1. **تشغيل المستودع / Clone the repository:**
-   ```bash
-   cd sd-05-nawa-market
-   ```
+## 🇸🇦 العربية
 
-2. **تثبيت الحزم / Install dependencies:**
-   ```bash
-   npm install
-   ```
+تم تطوير الواجهة باتباع منهجية **الجوال أولاً (Mobile-First)** لضمان تجربة مستخدم مثالية على كافة الشاشات:
+- **Desktop**: دقة 1440px وأعلى مع استغلال المساحات العريضة.
+- **Tablet**: دقة 768px إلى 1024px مع شبكة مرنة تكيّف المكونات تلقائياً.
+- **Mobile**: دقة 390px وأصغر مع أزرار لمس مريحة وقائمة جانبية سهلة الاستخدام.
 
-3. **تشغيل الخادم المحلي / Run dev server:**
-   ```bash
-   npm run dev
-   ```
+## 🇺🇸 English
 
-4. **افتح المتصفح على / Open browser:**  
-   [http://localhost:3000](http://localhost:3000)
+Designed using **Mobile-First Principles** to ensure absolute perfection on all viewports:
+- **Desktop Grid (1440px+)**: Expansive multi-column layouts leveraging wide screens.
+- **Tablet Grid (768px - 1024px)**: Adaptive column wrapping and fluid flex layouts.
+- **Mobile Grid (390px)**: Touch-optimized targets, collapsible drawer navigation, and zero horizontal scroll.
 
 ---
 
-## Security & Privacy / الأمان والخصوصية
+# ⚡ Performance Optimization | الأداء والسرعة
 
-- **لا توجد قواعد بيانات أو خوادم خلفية / No Backend:** المشروع يعمل بالكامل على جانب العميل (Client-side) باستخدام بيانات افتراضية.
-- **عدم جمع البيانات / Zero Data Collection:** لا يتم حفظ أي بيانات شخصية أو حقيقية.
-- **عمليات دفع تجريبية / Demo Payments:** جميع الشاشات مخصصة لمحاكاة معارض الأعمال (Portfolio Demo).
+## 🇸🇦 العربية
 
----
+- **Next.js Image**: ضغط الصور تلقائياً وتحويلها لشكل WebP/AVIF لتقليل زمن التحميل.
+- **Dynamic Imports**: تحميل المكونات الثقيلة عند الحاجة فقط لتسريع الاستجابة الأولى.
+- **Font Optimization**: تحميل الخطوط مباشرة عبر `next/font` لمنع الشاشة البيضاء (CLS).
 
-## Author / المطور
-**Salimi Tech (ساليمي تك)**
+## 🇺🇸 English
 
----
-
-## Collection / السلسلة
-**Salimi Digital (SD) Collection (مجموعة ساليمي الرقمية)**
+- **Next.js Image Engine**: Automated image resizing, format conversion (WebP/AVIF), and lazy loading.
+- **Dynamic Imports**: Lazy-loading non-critical components to lower initial JavaScript execution time.
+- **Font Optimization**: Self-hosted Google Fonts via `next/font` eliminating Cumulative Layout Shift (CLS).
 
 ---
 
-## License / الترخيص
-Portfolio & Educational Purposes / لأغراض العرض التعليمي ومعرض الأعمال.
+# ♿ Accessibility (a11y) | إكانية الوصول
+
+## 🇸🇦 العربية
+
+- دعم التصفح الكامل عبر لوحة المفاتيح (Keyboard Navigation).
+- وضوح التباين للألوان وفق معايير WCAG AA.
+- استخدام التسميات ARIA Labels وعناصر HMTL5 الدلالية (`<header>`, `<main>`, `<nav>`).
+
+## 🇺🇸 English
+
+- Complete keyboard focus management and screen reader support.
+- Color contrast ratio compliance meeting WCAG AA standards.
+- Full ARIA semantics (`aria-label`, `aria-expanded`) and semantic HTML structure.
+
+---
+
+# 💻 Installation & Setup | التثبيت والتشغيل
+
+## 🇸🇦 العربية و 🇺🇸 English
+
+```bash
+# 1. Clone the repository | استنساخ المستودع
+git clone https://github.com/malsalimi/sd-05-nawa-market.git
+
+# 2. Navigate into the project folder | الانتقال لتركي المشروع
+cd nawa-market
+
+# 3. Install dependencies | تثبيت الحزم البرمجية
+npm install
+
+# 4. Start local development server | تشغيل خادم التطوير المحلي
+npm run dev
+
+# 5. Open browser at | افتح المتصفح على الرابط
+http://localhost:3000
+```
+
+---
+
+# 🩺 Repository Health | صحة المستودع والملفات
+
+- **`CHANGELOG.md`**: [سجل التغييرات والإصدارات](CHANGELOG.md)
+- **`CONTRIBUTING.md`**: [دليل المساهمة والترخيص](CONTRIBUTING.md)
+- **`LICENSE`**: [ترخيص الاستخدام والتعليم](LICENSE)
+
+---
+
+# 🔮 Future Improvements | التحسينات المستقبلية
+
+## 🇸🇦 العربية
+
+- إضافة الربط الفعلي مع بوابات الدفع الإلكترونية (Stripe / Local Gateways).
+- دمج الذكاء الاصطناعي لتوفير مساعد افتراضي ذكي للإجابة على استفسارات الزوار.
+
+## 🇺🇸 English
+
+- Integration of active payment gateway processors (Stripe / Local Fintech APIs).
+- AI Conversational Assistant integration for real-time customer support.
+
+---
+
+# 👨‍💻 Author | المؤلف
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <h2>المهندس محمد السالمي | Eng. Mohammed Al Salimi</h2>
+      <p><b>مؤسس Salimi Tech | Founder of Salimi Tech</b></p>
+      <p>Frontend Developer | Cybersecurity Specialist | UI/UX Designer</p>
+      <p>
+        🌐 <a href="https://salimi-tech.vercel.app">salimi-tech.vercel.app</a> &nbsp;|&nbsp;
+        🐙 <a href="https://github.com/malsalimi">github.com/malsalimi</a> &nbsp;|&nbsp;
+        📞 <a href="tel:+967772076053">+967 772 076 053</a>
+      </p>
+      <p>© 2026 Mohammed Al Salimi. All Rights Reserved.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+# 📜 License | الترخيص
+
+**Portfolio & Educational Purposes License**  
+جميع الحقوق محفوظة للمهندس محمد السالمي (Salimi Tech). هذا المشروع مخصص للمحفظة والاستعراض التعليمي.
+
+---
+
+# 🌟 Salimi Digital (SD) Collection
+
+## 🇸🇦 العربية
+
+هذا المشروع جزء من سلسلة **Salimi Digital (SD) Collection**، وهي مجموعة مشاريع احترافية تهدف إلى استعراض مهارات تطوير الويب الحديثة باستخدام Next.js وTypeScript وTailwind CSS من خلال تطبيقات ثنائية اللغة وتصاميم متجاوبة وعالية الجودة.
+
+## 🇺🇸 English
+
+This project is part of the **Salimi Digital (SD) Collection**, a professional portfolio showcasing modern bilingual web applications built with Next.js, TypeScript, and Tailwind CSS, featuring responsive design, clean architecture, and production-quality user interfaces.
